@@ -4,8 +4,78 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73797463dc46cb0e54b1127f98d58baa",
+    "content-hash": "6a3c242570065ea488c691290359afca",
     "packages": [
+        {
+            "name": "gmars/tp5-nestedsets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gmars/tp5-nestedsets.git",
+                "reference": "2955cee8068f5518afee0c75f034b0e3440f7cc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gmars/tp5-nestedsets/zipball/2955cee8068f5518afee0c75f034b0e3440f7cc7",
+                "reference": "2955cee8068f5518afee0c75f034b0e3440f7cc7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "gmars\\nestedsets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "weiyongqiang",
+                    "email": "hayixia606@163.com"
+                }
+            ],
+            "description": "此扩展是thinkPHP5的nestendsets的扩展。能够方便的在项目中来管理有层级关系的数据结构。该扩展在算法上部分参考了Willfred di Vampo的nestedsets，实现了数据的插入，移动，删除，遍历等功能。",
+            "time": "2018-05-17T02:27:20+00:00"
+        },
+        {
+            "name": "gmars/tp5-rbac",
+            "version": "v1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gmars/tp5-rbac.git",
+                "reference": "1147a8b510caa905ac88ddca3d8278b8e25696fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gmars/tp5-rbac/zipball/1147a8b510caa905ac88ddca3d8278b8e25696fd",
+                "reference": "1147a8b510caa905ac88ddca3d8278b8e25696fd",
+                "shasum": ""
+            },
+            "require": {
+                "gmars/tp5-nestedsets": "dev-master",
+                "topthink/think-migration": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "gmars\\rbac\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "weiyongqiang",
+                    "email": "hayixia606@163.com"
+                }
+            ],
+            "description": "这个扩展是基于thinkPHP5框架的RBAC权限验证的扩展。使用本扩展能够快速的将RBAC权限控制器模块引入到自己的系统中。原则上本模块适合于任何PHP框架但是由于使用了thinkPHP5的特性所以使用composer安装到其他框架时需要做相应的修改。模块所需要的扩展库可以通过thinkPHP5的migration来做数据迁移。",
+            "time": "2018-08-16T07:49:36+00:00"
+        },
         {
             "name": "jaybizzle/crawler-detect",
             "version": "v1.2.73",
@@ -175,16 +245,16 @@
         },
         {
             "name": "topthink/framework",
-            "version": "v5.0.21",
+            "version": "v5.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/framework.git",
-                "reference": "ab826da071a7a47116a7f1d01f72228d6bcf212a"
+                "reference": "b0514ee54c4703c1598d3caa3fad2b8a6a41e311"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/framework/zipball/ab826da071a7a47116a7f1d01f72228d6bcf212a",
-                "reference": "ab826da071a7a47116a7f1d01f72228d6bcf212a",
+                "url": "https://api.github.com/repos/top-think/framework/zipball/b0514ee54c4703c1598d3caa3fad2b8a6a41e311",
+                "reference": "b0514ee54c4703c1598d3caa3fad2b8a6a41e311",
                 "shasum": ""
             },
             "require": {
@@ -222,7 +292,7 @@
                 "orm",
                 "thinkphp"
             ],
-            "time": "2018-09-04T09:18:48+00:00"
+            "time": "2018-10-21T08:36:55+00:00"
         },
         {
             "name": "topthink/think-captcha",
@@ -489,21 +559,24 @@
         },
         {
             "name": "topthink/think-queue",
-            "version": "v1.1.5",
+            "version": "v1.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/top-think/think-queue.git",
-                "reference": "465320c9cb7811df22d4ff8f29f58ead7d104348"
+                "reference": "250650eb0e8ea5af4cfdc7ae46f3f4e0a24ac245"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/top-think/think-queue/zipball/465320c9cb7811df22d4ff8f29f58ead7d104348",
-                "reference": "465320c9cb7811df22d4ff8f29f58ead7d104348",
+                "url": "https://api.github.com/repos/top-think/think-queue/zipball/250650eb0e8ea5af4cfdc7ae46f3f4e0a24ac245",
+                "reference": "250650eb0e8ea5af4cfdc7ae46f3f4e0a24ac245",
                 "shasum": ""
             },
             "require": {
                 "topthink/think-helper": ">=1.0.4",
                 "topthink/think-installer": ">=1.0.10"
+            },
+            "require-dev": {
+                "topthink/framework": "~5.0.0"
             },
             "type": "think-extend",
             "extra": {
@@ -530,7 +603,7 @@
                 }
             ],
             "description": "The ThinkPHP5 Queue Package",
-            "time": "2018-05-04T05:29:53+00:00"
+            "time": "2018-10-15T10:16:55+00:00"
         },
         {
             "name": "topthink/think-worker",
@@ -571,16 +644,16 @@
         },
         {
             "name": "workerman/workerman",
-            "version": "v3.5.14",
+            "version": "v3.5.15",
             "source": {
                 "type": "git",
                 "url": "https://github.com/walkor/Workerman.git",
-                "reference": "6d70996b2b4ec94000e807246aca0e861c9601d8"
+                "reference": "6df60271e514201a17a96acb8ea16936000444cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/walkor/Workerman/zipball/6d70996b2b4ec94000e807246aca0e861c9601d8",
-                "reference": "6d70996b2b4ec94000e807246aca0e861c9601d8",
+                "url": "https://api.github.com/repos/walkor/Workerman/zipball/6df60271e514201a17a96acb8ea16936000444cb",
+                "reference": "6df60271e514201a17a96acb8ea16936000444cb",
                 "shasum": ""
             },
             "require": {
@@ -613,13 +686,15 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2018-08-04T12:41:54+00:00"
+            "time": "2018-09-20T09:11:43+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "gmars/tp5-nestedsets": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
